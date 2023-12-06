@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:wght@300&display=swap');
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+    font-family: "Palanquin Dark";
+    background-image: url('bacgreynotext.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+#info {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    margin-left: 760px;
+    position: absolute;
+    width: 500px;
+    margin-right: 0px;
+    margin-top: 4px;
+    font-size: 8pt;
+    line-height: 2;
+    text-align: right;
+}
+#titulo {
+    text-align: left;
+    color:#d9d9d9;
+    font-size: 360px;
+    margin: 0px;
+    font-family: 'Roboto Condensed';
+    position: relative;
+    bottom: 73px;
+    right: 10px;
+    letter-spacing: -18px;
+    mix-blend-mode:difference;
+}
+#texto {
+  text-align: left;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 550;
+  position: relative;
+  width: 720px;
+  left: 15px;
+  bottom: 150px;
+  font-size: 10pt;
+  line-height: 2;
+}
+#subtitle {
+  text-align: center;
+  color:white;
+}
+#name {
+  text-align: center;
+  color:white;
+}
+#texto-violeta {
+    mix-blend-mode: difference;
+    z-index: 2;
+    position: relative;
+    color: cyan;
+    text-align: center;
+  }
+#entry-container {
+  display: flex;
+  justify-content: center;
+}
+#entradas a{
+    height: 110px;
+    width: 80px;
+    margin: 0 10px;
+    background-color: #d9d9d9;
+    color: #d9d9d9;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    mix-blend-mode:exclusion;
+    transition: width 0.3s, height 0.3s; rotate: 5s;
+}
+#entradas {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#entradas a:nth-child(9):hover,
+#entradas a:nth-child(10):hover {
+  color: chartreuse;
+  background-color: chartreuse;
+  width: 800px;
+  height: 420px;
+  rotate: 40deg;
+}
+#entradas a:nth-child(2):hover {
+  rotate: -15deg;
+  color: aqua;
+  background-color: aqua;
+}
+#entradas a:nth-child(3):hover {
+  rotate: -15deg;
+  color:aqua;
+  background-color: aqua;
+}
+#entradas a:nth-child(4):hover {
+rotate: 25deg;
+}
+#entradas a:nth-child(5):hover {
+  color: aqua;
+  background-color: aqua;
+  rotate: -15deg;
+}
+#entradas a:nth-child(6):hover {
+  color:aqua;
+  background-color:aqua;
+  rotate: 15deg;
+}
+#entradas a:nth-child(7):hover {
+  color: aqua;
+  background-color: aqua;
+  rotate: -15deg;
+}
+#entradas a:nth-child(8):hover {
+  color: aqua;
+  background-color: aqua;
+}
+#entradas a:hover {
+    width: 420px;
+    height: 600px;
+    rotate: 15deg;
+    position: relative;
+    color: aqua;
+    background-color: aqua;
+    mix-blend-mode:exclusion;
+    opacity: 5;
+}
+
+#entradas a:hover::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 72pt;
+  color: aqua;
+  mix-blend-mode: difference;
+}
+#entradas a:nth-child(1):hover::before, #entradas a:nth-child(2):hover::before, #entradas a:nth-child(3):hover::before, #entradas a:nth-child(4):hover::before, #entradas a:nth-child(5):hover::before, #entradas a:nth-child(6):hover::before, #entradas a:nth-child(7):hover::before, #entradas a:nth-child(8):hover::before {
+  color:cyan;
+}

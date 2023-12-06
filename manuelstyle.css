@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    font-family: "Tangerine";
+    background-color:rgb(83, 39, 18);
+    color:chartreuse;
+    font-size: 72pt;
+}
+#suit {
+    position: absolute;
+    mix-blend-mode:difference;
+    height: 90%;
+    z-index: 2;
+    opacity: 1;
+}
+#botas {
+    position: absolute;
+    mix-blend-mode: hard-light;
+    height: 90%;
+    z-index: 2;
+    opacity: 1;
+    left: 600px;
+}
+#pantalones {
+    position: absolute;
+    mix-blend-mode: difference;
+    z-index: 2;
+    opacity: 1;
+    height: 90%;
+    left: 300px;
+    top: 30px;
+}
+#NEXT {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 1178px;
+    bottom: 1400px;
+    width: 20px;
+}
+.next-button {
+    color: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    background-color: rgb(83, 39, 18);
+}
+#BACK {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    right: 1178px;
+    bottom: 1400px;
+    width: 20px;
+}
+.back-button {
+    color: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    background-color: rgb(83, 39, 18);
+}
+#horizontal-lines {
+    transition: color 2s;
+}
+#horizontal-lines:hover {
+    color: aquamarine;
+    mix-blend-mode: color-burn;
+}
+.horizontal-line0 {
+    background-color: chartreuse;
+    height: 8px;
+    width: 1400px;
+    position: relative;
+    top: 40px;
+    right: 100px;
+    mix-blend-mode: difference;
+}
+.horizontal-line {
+    background-color: chartreuse;
+    height: 8px;
+    width: 1400px;
+    position: relative;
+    top: 70px;
+    right: 100px;
+    mix-blend-mode: difference;
+}
+.horizontal-line2 {
+    background-color: chartreuse;
+    height: 8px;
+    width: 1400px;
+    position: relative;
+    top: 80px; /* For the line at the top */
+    right: 100px;
+    mix-blend-mode: difference;
+    transition: height 2s;
+}
+.horizontal-line3 {
+    background-color: chartreuse;
+    height: 8px;
+    width: 1400px;
+    position: relative;
+    top: 0px; /* For the line at the top */
+    right: 100px;
+    mix-blend-mode: difference;
+    transition: height 2s;
+}
+
+
+h1 {
+    font-size: 200pt;
+    font-weight: bold;
+    font-family: "Bebas Neue";
+    position: relative;
+    top: 200px;
+    bottom: 4px;
+    transition: color 1s;
+    
+}
+h1:hover {
+
+    mix-blend-mode:color-burn;
+    color:crimson;
+    
+}
+img {
+    mix-blend-mode:multiply;
+    opacity: 0.3;
+    position: absolute;
+    scale: 70%;
+    top: 0px;
+    bottom: 500px;
+}
+
+#desc-manuel {
+    font-size: 30pt;
+    position: absolute;
+}
+
+#well-aware {
+    font-size: 30pt;
+    width: 1000px;
+    bottom: 50px;
+    position: relative;
+}
+div {
+    width: 250px;
+    text-align:left;
+    position: static;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+#NEXT {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer; 
+    mix-blend-mode: multiply;
+}
+
+.next-button {
+    color: white;
+    font-weight: 600;
+    background-color: blanchedalmond;
+    cursor: pointer; 
+    mix-blend-mode: multiply;
+}
+
+#BACK {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    cursor: pointer;
+    mix-blend-mode: multiply;
+}
+
+.back-button {
+    color: white;
+    font-weight: 600;
+    background-color: blanchedalmond;
+    cursor: pointer; 
+}
+#whitepanel {
+    height: 1210px;
+    width: 370px;
+    color: white;
+    background-color: white;
+    position: absolute;
+    z-index: -2;
+    left: 0px;
+    top: 0;
+    transition: width 1s;
+    mix-blend-mode: exclusion;
+}
+#whitepanel:hover {
+    width: 1500px;
+    mix-blend-mode: exclusion;
+}
+h3 {
+    font-family: "Lugrasimo";
+    text-align: center;
+    color:black;
+    font-size: 200pt;
+    mix-blend-mode: multiply;
+}
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: blanchedalmond;
+    font-size: 72pt;
+    width: 300px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align:left;
+    width: 300px;
+    font-size: 18pt;
+    mix-blend-mode: multiply;
+}
+#my-rep {
+    position: absolute;
+    margin-left: 20px;
+    bottom: 10px;
+    top: 830px;
+}
+body {
+    background-color: goldenrod;
+    background-image: url(sun.jpg);
+    background-size: 200%;
+}

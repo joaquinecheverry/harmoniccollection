@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: chartreuse;
+    background-image: url(clouds.jpg);
+    mix-blend-mode: exclusion;
+}
+
+#NEXT {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer; 
+}
+
+.next-button {
+    color: red;
+    font-weight: 600;
+    background-color: black;
+    mix-blend-mode: difference;
+    cursor: pointer; 
+}
+
+#BACK {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    cursor: pointer;
+}
+
+.back-button {
+    color: red;
+    font-weight: 600;
+    background-color: black;
+    cursor: pointer; 
+}
+
+h1 {
+    font-size: 200pt;
+    color: crimson;
+    text-align: center;
+    margin: 0;
+}
+
+#P,
+#U,
+#P2,
+#I {
+    margin: 0;
+    position: relative;
+    transition: font-size 0.5s;
+}
+
+#P:hover {
+    font-size: 400pt;
+}
+
+#U:hover {
+    font-size: 36pt;
+}
+
+#P2:hover {
+    font-size: 500pt;
+}
+
+#I:hover {
+    font-size: 48pt;
+}
+
+@keyframes Pcolor {
+    0% { color: crimson; }
+    25% { color: cyan; }
+    50% { color: red; }
+    75% { color: aqua; }
+    100% { color: crimson; }
+}
+
+@keyframes Ucolor {
+    0% { color: crimson; }
+    25% { color: cyan; }
+    50% { color: red; }
+    75% { color: aqua; }
+    100% { color: crimson; }
+}
+
+@keyframes P2color {
+    0% { color: crimson; }
+    25% { color: cyan; }
+    50% { color: red; }
+    75% { color: aqua; }
+    100% { color: crimson; }
+}
+
+@keyframes Icolor {
+    0% { color: crimson; }
+    25% { color: cyan; }
+    50% { color: red; }
+    75% { color: aqua; }
+    100% { color: crimson; }
+}
+
+#p1,
+#p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12pt;
+    margin: 0;
+    position: static;
+    color: crimson;
+}
+
+#p2 {
+    margin-top: 20px;
+}
+
+#desc {
+    margin-top: 130px;
+    font-size: 18pt;
+    width: 450px;
+    text-align: left;
+    position: absolute;
+    color: crimson;
+}

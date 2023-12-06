@@ -1,0 +1,167 @@
+
+body {
+    background-color: aqua;
+}
+#NEXT {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  cursor: pointer; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.next-button {
+  color: white;
+  font-weight: 600;
+  background-color: aqua;
+  cursor: pointer; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#BACK {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; 
+  cursor: pointer;
+}
+
+.back-button {
+  color: white;
+  font-weight: 600;
+  background-color: aqua;
+  cursor: pointer; 
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 100pt;
+    margin: 0px 0px 0px 0px;
+}
+#lore {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 10.5pt;
+    width: 500px;
+    position: relative;
+    left: 394px;
+}
+#PLANETEARTH {
+    transition: font-size 4s;
+}
+#PLANETEARTH:hover {
+    font-size: 22pt;
+}
+#CORESTORY {
+    transition: font-size 4s;
+}
+#CORESTORY:hover {
+    font-size: 22pt;
+}
+#LIFE {
+    transition: font-size 4s;
+}
+#LIFE:hover {
+    font-size: 22pt;
+}
+#individual-letters {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #individual-letters span {
+    transition: transform 0.3s, color 0.3s, font-size 0.5s;
+  }
+  
+  #individual-letters span:hover {
+    font-size: 1000pt;
+    color: white;
+    transform: rotate(30deg);
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red; /* Choose your preferred color */
+    position: absolute;
+    transition: transform 0.2s ease-in-out; /* Smooth transition over 0.5 seconds with ease-in-out timing function */
+  }
+  
+  #circle1 {
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 8px solid white;
+  }
+  
+  #circle2 {
+    top: 100px;
+    right: 400px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 8px solid white;
+  }
+  
+  #circle3 {
+    bottom: 50px;
+    left: 200px;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    border: 8px solid white;
+  }
+  
+  #circle4 {
+    bottom: 150px;
+    right: 100px;
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    border: 8px solid white;
+  }
+  
+  #circle5 {
+    top: 800px;
+    left: 200px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 8px solid white;
+  }
+  #circle6 {
+    top: 1000px;
+    left: 800px;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border: 8px solid white;
+  }
+  #circle1:hover {
+    transform: translate(300px, 100px);
+  }
+  
+  #circle2:hover {
+    transform: translate(-50px, -50px);
+  }
+  
+  #circle3:hover {
+    transform: translate(50px, -50px);
+  }
+  
+  #circle4:hover {
+    transform: translate(20px, 20px);
+  }
+  
+  #circle5:hover {
+    transform: translate(-150px, -150px);
+  }
+  
+  #circle6:hover {
+    transform: translate(-200px, -200px);
+  }

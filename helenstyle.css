@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:wght@300&display=swap');
+body {
+    background-color: black;
+}
+#NEXT {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.next-button {
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    cursor: pointer; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#BACK {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    cursor: pointer;
+}
+
+.back-button {
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    cursor: pointer; 
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 190pt;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    background-color: black;
+    bottom: 315px;
+}
+button:hover {
+    cursor: pointer;
+}
+p {
+    width: 750px;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    font-size: 48pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}   
+#block1 {
+    color: white;
+    width: 460px;
+    font-size: 12pt;
+    bottom: 500px;
+    left: 20px;
+    transition: word-spacing 1s;
+}
+#block1:hover {
+    word-spacing: 90px;
+}
+#block2 {
+    color: white;
+    width: 200px;
+    font-size: 12pt;
+    bottom: 500px;
+    display:grid;
+    left: 512px;
+    position: absolute;
+    transition: word-spacing 1s;
+}
+#block2:hover {
+    word-spacing: 90px;
+}
+#block3 {
+    color: white;
+    width: 200px;
+    font-size: 12pt;
+    bottom: 500px;
+    display:grid;
+    left: 742px;
+    position: absolute;
+    transition: word-spacing 1s;
+}
+#block3:hover {
+    word-spacing: 90px;
+}
+#block4 {
+    color: white;
+    width: 200px;
+    font-size: 12pt;
+    bottom: 500px;
+    display:grid;
+    left: 972px;
+    position: absolute;
+    transition: word-spacing 1s;
+}
+#block4:hover {
+    word-spacing: 90px;
+}
+#block5 {
+    color: white;
+    width: 460px;
+    font-size: 12pt;
+    top: 396px;
+    left: 27px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    transition: word-spacing 1s;
+}
+#block5:hover {
+    word-spacing: 90px;
+}

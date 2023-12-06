@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:wght@300&display=swap');
+#domingo {
+   width: 500px;
+   margin: 0 auto; /* Center horizontally by setting left and right margins to auto */
+   display: block; /* Ensures that margin:auto works */
+   margin-right: 405px;
+}
+.back-button {
+   color: chartreuse;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: 600;
+}
+#NEXT {
+   margin-left: 1170px;
+}
+.next-button {
+   color: chartreuse;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+}
+#domingo-body-sketch {
+   width: 500px;
+   position: absolute;
+   left: 52%; 
+   transform: translate(-50%, -50%); 
+   height: auto; 
+   margin-top: 600px;
+   mix-blend-mode:overlay;
+}
+#cross {
+   width: 500px;
+   position: absolute;
+   left: -500px; /* Initial position outside the left edge of the screen */
+   top: 50%;
+   transform: translate(-50%, -50%);
+   height: auto;
+   margin-top: 180px;
+   animation: moveCross 10s linear infinite; /* Adjust the animation duration as needed */
+   display: inline;
+}
+#cross1 {
+   left: -500px;
+}
+
+#cross2 {
+   left: -400px;
+}
+
+#cross3 {
+   left: -300px;
+}
+
+
+
+@keyframes moveCross {
+   0% {
+       left: -500px;
+   }
+   100% {
+       left: 100%;
+   }
+}
+#domingo-lore {
+   width: 320px;
+   font-family: Arial, Helvetica, sans-serif; 
+   font-weight: bold;
+   color:chartreuse;
+   text-align: left;
+   margin-left: 60px;
+   letter-spacing: 200px;
+   position: absolute;
+   font-size: 48pt;
+   transition: letter-spacing 0.5s;
+}
+#domingo-lore:hover {
+   letter-spacing: 2px;
+}
+body {
+   background-color: blueviolet; 
+   display: flex; 
+}
+
+
+

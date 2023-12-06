@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+h1 {
+font-family: "Racing Sans One";
+font-size: 250px;
+color: yellow;
+position: relative;
+margin: 0px;
+margin-left: 14px;
+}
+#NEXT {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.next-button {
+    color: yellow;
+    font-family: "Racing Sans One";
+    font-weight: 600;
+    background-color: blueviolet;
+}
+#BACK {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.back-button {
+    color: yellow;
+    font-family: "Racing Sans One";
+    font-weight: 600;
+    left: 50px;
+    background-color: blueviolet;
+}
+body {
+    background-color: blueviolet;
+    font-family: "Racing Sans One";
+    color: yellow;
+}
+#epiteto {
+    letter-spacing: 20px;
+    position: relative;
+    margin-left: 18px;
+    bottom: 70px;
+    left: 20px;
+}
+#vertical-line {
+    position: absolute;
+    width: 8px;
+    height: 1000px;
+    background-color: yellow;
+    bottom: 0px;
+    mix-blend-mode: difference;
+    transition: width 1s;
+}
+#vertical-line:hover {
+    width: 2000px;
+}
+#vertical-line2 {
+    position: absolute;
+    width: 8px;
+    height: 1000px;
+    background-color: yellow;
+    left: 440px;
+    mix-blend-mode: difference;
+    top: 0px;
+    transition: width 1s;
+}
+#vertical-line2:hover {
+    width: 2000px;
+}
+#vertical-line3 {
+    position: absolute;
+    width: 8px;
+    height: 1000px;
+    background-color: yellow;
+    left: 880px;
+    mix-blend-mode: difference;
+    top: 0px;
+    transition: width 2s;
+}
+#vertical-line3:hover {
+    width: 2000px;
+    position: relative;
+}
+#descripcion {
+    position: relative;
+    width: 400px;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 40px;
+    bottom: 127px;
+}
+.heart-container {
+    display: flex;
+    animation: moveHearts 10s linear infinite;
+    position: absolute;
+    left: 0;
+    top: 700px;
+    transform: translateY(-50%);
+}
+
+.heart {
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 250px 70px;
+}
+.horizontal-line {
+    background-color: yellow;
+    height: 8px;
+    width: 2000px;
+    position: relative;
+    bottom: 70px;
+    right: 100px;
+    mix-blend-mode: difference;
+    transition: height 2s;
+}
+.horizontal-line:hover {
+    height: 2000px;
+    mix-blend-mode: exclusion;
+}
+.horizontal-line-below {
+    background-color: yellow;
+    height: 8px;
+    width: 520px;
+    position: relative;
+    top: 2px;
+    right: 100px;
+    mix-blend-mode: difference;
+}
+.horizontal-line-last {
+    background-color: yellow;
+    height: 8px;
+    width: 2000px;
+    position: relative;
+    top: 500px;
+    right: 100px;
+    mix-blend-mode: difference;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart::before {
+    top: -10px;
+    left: 0;
+}
+
+.heart::after {
+    top: 0;
+    left: 10px;
+}
+
+@keyframes moveHearts {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}

@@ -1,0 +1,102 @@
+#NEXT {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.next-button {
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#BACK {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    cursor: pointer;
+}
+
+.back-button {
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer; 
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 190pt;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    color: black;
+    background-color: white;
+    bottom: 315px;
+    left: 30px;
+}
+p {
+    width: 500px;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    font-size: 48pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+#block1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    bottom: 500px;
+    font-size: 12pt;
+    width: 200px;
+    left: 27px;
+    position: relative;
+    transition: word-spacing 1s;
+}
+#block2 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: black;
+    bottom: 500px;
+    font-size: 12pt;
+    width: 200px;
+    left: 260px;
+    transition: word-spacing 1s;
+}
+#block2:hover {
+    word-spacing: -90px;
+}
+#block3 {
+    width: 460px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: black;
+    bottom: 500px;
+    font-size: 12pt;
+    left: 483px;
+    transition: word-spacing 1s;
+}
+#block3:hover {
+    word-spacing: -90px;
+}
+#adapt {
+    position: relative;
+    top: 200px;
+    left: 471px;
+    font-size: 48pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    width: 500px;
+    transition: word-spacing 5s;
+}
+#adapt:hover {
+    word-spacing: -400px;
+}
+#block1:hover {
+    word-spacing: -90px;
+}
